@@ -10,7 +10,7 @@ function countdown() {
     //const seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
     document.getElementById("countdown").innerHTML =
-        days + " days! " + hours + "h " + minutes + "m " + seconds + "s";
+        days + " days! ";
 
     if (distance < 0) {
         document.getElementById("countdown").innerHTML = "We're married!";
