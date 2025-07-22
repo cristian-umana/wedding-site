@@ -21,9 +21,10 @@ body {
     margin: 2rem auto;
     color: rgb(132, 139, 194);
     position: absolute;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    top: 50%; /* For vertical centering */
+    left: 50%; /* For horizontal centering */
+    transform: translate(-50%, -50%); /* Centers the element itself */
+
 }
 
 .parallax-container {
