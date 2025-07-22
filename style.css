@@ -1,7 +1,7 @@
 
 body {
     margin: 0;
-    font-family: 'Roboto', serif;
+    font-family: 'Georgia', serif;
     background-color: white;
     color: rgb(132, 139, 194);
     text-align: center;
@@ -20,6 +20,7 @@ body {
     font-size: 2rem;
     margin: 2rem auto;
     color: rgb(132, 139, 194);
+    position: absolute;
 }
 
 .parallax-container {
