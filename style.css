@@ -1,0 +1,41 @@
+
+body {
+    margin: 0;
+    font-family: 'Georgia', serif;
+    background-color: white;
+    color: rgb(132, 139, 194);
+    text-align: center;
+}
+
+.logo-container {
+    padding: 2rem 1rem 1rem;
+}
+
+.logo {
+    max-width: 90%;
+    height: auto;
+}
+
+.countdown {
+    font-size: 2rem;
+    margin: 3rem auto;
+    color: rgb(132, 139, 194);
+}
+
+.parallax-container {
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+}
+
+.parallax-bg {
+    background: url('Savethedate-base.png') no-repeat center;
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    transform: translateZ(0);
+    will-change: transform;
+}
